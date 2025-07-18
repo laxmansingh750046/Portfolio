@@ -123,7 +123,11 @@ const Hero = ({ darkMode }) => {
                   <div className="text-center">
                     <div className="bg-gray-200 border-2 border-dashed rounded-xl w-32 h-32 mx-auto" />
                     <p className={`mt-4 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                      Profile Image
+                      <img
+                          src="https://res.cloudinary.com/dri819usd/image/upload/v1751435259/ubhj9lv6b1ujmtkqhdwo.jpg"
+                          alt="Profile Image"
+                          className="absolute top-0 left-0 w-full h-full object-cover"
+                        />
                     </p>
                   </div>
                 </div>
