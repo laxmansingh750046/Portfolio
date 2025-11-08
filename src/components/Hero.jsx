@@ -20,8 +20,8 @@ const Hero = ({ darkMode }) => {
               Hello, I'm
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              <span className={darkMode ? 'text-blue-400' : 'text-blue-600'}>Laxman </span>
-              <span className={darkMode ? 'text-white' : 'text-gray-900'}>Singh</span>
+              <span className={darkMode ? 'text-blue-400' : 'text-blue-600'}>Akshay </span>
+              <span className={darkMode ? 'text-white' : 'text-gray-900'}>Kumar</span>
             </h1>
             
             <div className="text-2xl md:text-3xl font-semibold mb-6 h-16 md:h-20">
