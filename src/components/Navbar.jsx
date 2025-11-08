@@ -37,8 +37,8 @@ const Navbar = ({ darkMode, setDarkMode, activeSection }) => {
                 scrollToSection('home');
               }}
             >
-              <span className={darkMode ? 'text-blue-400' : 'text-blue-600'}>Laxman</span>
-              <span className={darkMode ? 'text-white' : 'text-gray-900'}>Singh</span>
+              <span className={darkMode ? 'text-blue-400' : 'text-blue-600'}>Akshay</span>
+              <span className={darkMode ? 'text-white' : 'text-gray-900'}>Kumar</span>
             </a>
           </div>
           
